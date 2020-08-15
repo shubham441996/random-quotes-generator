@@ -13,3 +13,8 @@
 ## Special Thanks
 
 [Andrei Neagoie](https://twitter.com/andreineagoie?lang=en)
+
+New Things Learn
+
+- [How To handle CORS in free Api](https://cors-anywhere.herokuapp.com/)
+
