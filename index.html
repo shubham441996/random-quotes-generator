@@ -12,10 +12,35 @@
       href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>Hello World</h1>
+    <div class="quote-container">
+      <!-- Quote Data -->
+      <div class="quote">
+        <i class="fas fa-quote-left"></i>
+        <span class="quote-text-container" id="quote-text"
+          >The future is completely open, and we are writing it moment to
+          moment.</span
+        >
+      </div>
+      <!-- Author Data -->
+      <div class="author">
+        <span class="quote-text-container">##</span>
+        <span class="quote-text-container" id="author-text">Pema Chodron</span>
+      </div>
+      <!-- Buttons -->
+      <div class="button-container">
+        <button class="btn" id="tweet"><i class="fab fa-twitter"></i></button>
+        <button class="btn" id="next-quote">Next</button>
+      </div>
+      <!-- Loader -->
+      <div class="loader" id="loader"></div>
+    </div>
     <script src="./index.js"></script>
   </body>
 </html>
